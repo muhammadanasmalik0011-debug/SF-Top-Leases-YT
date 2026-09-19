@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import * as Cesium from 'cesium';
 import {
-  Cesium,
   createViewer,
   addPhotorealistic,
   setMode,

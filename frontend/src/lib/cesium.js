@@ -323,4 +323,3 @@ export function viewerAlive(viewer) {
   return alive(viewer);
 }
 
-export { Cesium };

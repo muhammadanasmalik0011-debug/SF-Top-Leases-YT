@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import * as Cesium from 'cesium';
 import { date, psf, sf } from '../lib/format.js';
 import {
-  Cesium,
   createViewer,
   addPhotorealistic,
   sharpenPhotorealistic,

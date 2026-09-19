@@ -79,3 +79,7 @@ cd frontend
 npm install
 npm run dev
 ```
+
+
+## Node version
+This project uses Node 22 for Netlify builds because the current Cesium dependency requires Node 22 or newer.
